@@ -1,21 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { Header } from './components/header';
+import { Footer } from './components/footer';
+import {BrowserRouter, Routes  ,Route} from 'react-router-dom'
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <select>
-        <option value='10'>10</option>
-        <option value='20'>20</option>
-        <option value='30'>30</option>
-      </select>
+    <BrowserRouter>
+    <div className=' static font-mono text-slate-100'>
+    <Header/>
+    <div className=''> 
+Привет
     </div>
-
-
+    <Footer/>
+    </div>
+    </BrowserRouter>
   );
 }
 
