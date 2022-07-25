@@ -13,7 +13,7 @@ export const Navcard: React.FC<INavcardProps> = (props) => (
       props.wrapperClassName
     }
   >
-    <span className="material-icons">{props.iconCode}</span>
+    <i className="material-icons">{props.iconCode}</i>
     <span className="mt-4 text-xl">{props.text}</span>
   </div>
 );
