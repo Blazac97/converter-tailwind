@@ -34,5 +34,15 @@ body {
 }
 
 .material-icons {
-  font-size: 50px;
+  font-size: 70px;
+}
+.navbox {
+  margin-top: 80px;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 200px 200px;
+  align-items: center;
+  justify-content: center;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
 }
