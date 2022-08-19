@@ -1,6 +1,6 @@
 import React from "react";
 import { Navcard } from "./navcard";
-import { navpanelitems } from "./navigation/Cards";
+import { navpanelitems } from "../navigation/Cards";
 export const Navpanel: React.FC = () => (
   <div className="navbox">
     {navpanelitems.map((item) => (

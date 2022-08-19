@@ -1,9 +1,9 @@
 import { Header } from "./components/header";
 import { Footer } from "./components/footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Navpage } from "./pages/navpage";
-import { Aboutpage } from "./pages/aboutpage";
-import { Lengthpage } from "./pages/lengthpage";
+import { Navpage } from "./pages/Main";
+import { Aboutpage } from "./pages/About";
+import { ConverterPage } from "./pages/Converter";
 function App() {
   return (
     <BrowserRouter>
@@ -13,7 +13,7 @@ function App() {
           <Routes>
             <Route element={<Navpage />} path="/" />
             <Route element={<Aboutpage />} path="/about" />
-            <Route element={<Lengthpage />} path="/length" />
+            <Route element={<ConverterPage />} path="/converter/:category" />
           </Routes>
         </div>
         <Footer />
