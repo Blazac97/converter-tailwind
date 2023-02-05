@@ -22,7 +22,7 @@ export const ConverterBar: React.FC<IConverterBarProps> = ({
 	unitsValue
 }) => {
 	return (
-		<div className=" flex mx-auto mt-4 justify-center h-10">
+		<div className=" flex mx-auto mt-4 justify-center h-12">
 			<div className="flex">
 				<button
 					className=" w-24 flex justify-center items-center rounded-l-lg  text-white  bg-indigo-600/90 hover:animate-pulse"
@@ -37,7 +37,7 @@ export const ConverterBar: React.FC<IConverterBarProps> = ({
 					value={value}
 					type="number"
 					placeholder="Input your number"
-					className="form-input  px-4  rounded-lg  text-black text-center hover:border-2 w-full"
+					className="form-input  px-4  rounded-lg  text-black text-center text-lg font-bold hover:border-2 w-full"
 				></input>
 			</div>
 			<div className="flex  text-black mx-4">
