@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
         <p className="">Enjoy my converter.</p>
       </div>
       <div className=" flex items-center h-12 bg-blue-600  pl-64  ">
-        © 2022 Igor' Kartaus
+        © 2024 Igor' Kartaus
       </div>
     </div>
   );
